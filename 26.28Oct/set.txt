@@ -1,0 +1,12 @@
+Iterable
+
+collection
+
+set
+
+	HashSet
+
+		->LinkedHashSet
+	SortedSet
+		->NabigableSet
+			->TreeSet

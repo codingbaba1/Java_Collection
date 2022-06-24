@@ -1,0 +1,37 @@
+Map
+
+	->HashMap
+		->LinkedHashMap
+
+	->SortedMap
+		->NavigableMap
+			->TreeMap
+
+
+class Map<K,V>
+{
+}
+
+
+Map<Key,Value> map=new Map<key,Value>();
+
+Map<Integer,Product> map=new Map<Integer,Product>();
+
+Product p=new Product();
+p.setId();
+
+
+
+
+map.put(100,p);
+
+
+
+
+
+
+
+for(Map.Entry m:map.entrySet())
+{
+	SOP(m.getKey(),m.getValue());
+}
